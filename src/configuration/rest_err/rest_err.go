@@ -1,12 +1,12 @@
-package resterr
+package rest_err
 
 import "net/http"
 
 type RestErr struct {
 	Message string   `json:"message"`
 	Err     string   `json:"error"`
-	Code    int      `json:"code"`
-	Causes  []Causes `json:"causes"`
+	Code    int      `json:"code"`   //Ele pede para deixar como int no vídeo, porque mais para frente ocorre um problema por causa do int64
+	Causes  []Causes `json:"causes"` //Objeto cause
 }
 
 type Causes struct {

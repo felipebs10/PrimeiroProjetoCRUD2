@@ -1,7 +1,7 @@
 package controller
 
 import (
-	"github.com/felipebs10/PrimeiroProjetoCRUD2/tree/main/src/configuration/rest_err"
+	"github.com/felipebs10/PrimeiroProjetoCRUD2/src/configuration/rest_err"
 	"github.com/gin-gonic/gin"
 )
 
